@@ -11,9 +11,7 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  Alert,
   ScrollView,
-  TextInput,
   StatusBar,
   useColorScheme,
 } from 'react-native';
@@ -23,7 +21,6 @@ import {
 } from 'react-native-safe-area-context';
 
 import { NativeModules } from 'react-native';
-import { Platform } from 'react-native';
 
 
 console.log("NativeModules>>>", NativeModules); // check if MySwiftModule exists
@@ -41,6 +38,7 @@ function App() {
 
  function testSwiftModule() {
   try {
+    NativeModules.NativeSmartLightsSDKManager.getOutputForTesting()
     console.log('Swift response: from getOutputForTesting');
   } catch (err) {
     console.error('Swift module error:', err);
