@@ -6,8 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NativeSmartLightsSDKManager.h"
 #import "React/RCTBridgeModule.h"
+#import "NativeSmartLightsSDKManager.h"
 #import "NativeSmartLightsSDKExample-Swift.h"
 
 @interface NativeSmartLightsSDKManager ()

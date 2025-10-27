@@ -1,9 +1,10 @@
 //
 //  NativeSmartLightsSDKManager.h
+//  NativeSmartLightsSDKExample
 //
+//  Created by Gaurav Tak on 28/10/25.
 //
-//  Created by Gaurav Tak on 27/10/25.
-//
+
 
 #ifndef NativeSmartLightsSDKManager_h
 #define NativeSmartLightsSDKManager_h
